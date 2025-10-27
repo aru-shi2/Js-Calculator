@@ -1,4 +1,4 @@
-/* Reset and Base Setup */
+
 * {
   padding: 0;
   margin: 0;
@@ -106,7 +106,7 @@ h2 {
   }
 
   .btn {
-    width: 22vw !important;
+    width: 18vw !important;
     height: 60px !important;
     font-size: 18px !important;
   }
@@ -141,7 +141,7 @@ h2 {
   }
 }
 
-@media (min-width: 901px) {
+@media (min-width: 901px) and (max-width:1070px) {
   .main {
     width: 35vw;
   }
@@ -151,7 +151,26 @@ h2 {
   }
 
   .btn {
-    width: 87px;
+    width: 70px;
+    height: 50px;
+  }
+
+  #btn-19 {
+    width: 195px;
+  }
+}
+
+@media (min-width: 1071px) {
+  .main {
+    width: 35vw;
+  }
+
+  .result {
+    width: 28vw;
+  }
+
+  .btn {
+    width: 90px;
     height: 50px;
   }
 
