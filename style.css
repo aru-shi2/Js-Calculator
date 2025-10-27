@@ -8,7 +8,7 @@
     justify-content: center;
 }
 .main{
-    background-color: aqua;
+    background-color:rgb(66, 65, 75);
     height: 90vh;
     width: 35vw;
     margin-top: 25px;
@@ -21,6 +21,7 @@ h2{
     margin-bottom: 20px;
     font-weight: bolder;
     font-size: 40px;
+    color: rgb(202, 202, 131);
 }
 .buttons{
     display: flex;
@@ -31,6 +32,8 @@ h2{
 .btn{
     height: 50px;
     width: 87px;
+    font-size: large;
+    background-color: rgb(194, 194, 134);
 }
  span{
     display: flex;
@@ -43,4 +46,8 @@ h2{
     text-align: end;
     padding-right: 10px;
     font-size: 40px;
+    background-color: rgb(192, 211, 163);
+}
+#btn-19{
+    width: 195px;
 }
