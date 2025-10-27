@@ -7,6 +7,7 @@
     display: flex;
     justify-content: center;
 }
+
 .main{
     background-color:rgb(66, 65, 75);
     height: 90vh;
@@ -50,4 +51,130 @@ h2{
 }
 #btn-19{
     width: 195px;
+}
+
+@media (min-width: 1075px) and (max-width:1200px) {
+  .main {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 30vw;
+    height: auto;
+    margin-top: 10px;
+    padding: 20px;
+  }
+
+  .result {
+    width: 25vw;
+    font-size: 25px;
+    height: 10vh;
+  }
+
+  .buttons {
+    width:25vw;
+    gap: 5px;
+  }
+
+  span{
+    gap: 15px;
+  }
+
+  .btn {
+    width: 60px;
+    height: 50px;
+    font-size: 10px;
+  }
+
+  #btn-19{
+    width: 60px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 885px) and (max-width:1075px) {
+  .main {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 30vw;
+    height: auto;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .result {
+    width: 25vw;
+    font-size: 25px;
+    height: 10vh;
+  }
+
+  .buttons {
+    width:25vw;
+    gap: 5px;
+  }
+
+  span{
+    gap: 10px;
+  }
+
+  .btn {
+    width: 50px;
+    height: 40px;
+    font-size: 10px;
+  }
+
+  #btn-19{
+    width: 60px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width:885px) {
+  .main {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 30vw;
+    height: auto;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .result {
+    width: 25vw;
+    font-size: 25px;
+    height: 10vh;
+  }
+
+  .buttons {
+    width:25vw;
+    gap: 5px;
+  }
+
+  span{
+    gap: 10px;
+  }
+
+  .btn {
+    width: 40px;
+    height: 40px;
+    font-size: 10px;
+  }
+
+  #btn-19{
+    width: 60px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
 }
